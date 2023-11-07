@@ -1,0 +1,127 @@
+form{
+  width: 370px;
+  margin: 40px auto;
+  color: white;
+}
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 5px;
+  border: 1px solid #fff;
+  margin-top: 5px;
+}
+textarea {
+  resize: none;
+  height: 100px;
+}
+form div {
+  margin-top: 10px;
+}
+form label {
+  font-weight: bold;
+}
+button {
+  background-color: black;
+  padding: 8px 20px;
+  color: white;
+  border: none;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 15px;
+  /* margin-top: 10px; */
+  cursor: pointer;
+}
+/* blog form */
+
+.form-container{
+ display: flex;
+ justify-content: center;
+}
+.blog {
+  background-color: transparent;
+  width: 600px;
+  height: 100%;
+  margin: 10px 10px;
+  backdrop-filter: blur(25px);
+}
+
+form  h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+ form label {
+  font-size: 20px;
+  font-weight: bold;
+}
+form input, textarea{
+  width: 100%;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+ form textarea {
+  height: 250px;
+}
+ .upload-image {
+  width: 100%;
+  font-size: 15px;
+  font-weight: 400;
+  /* background-color: black; */
+  cursor: pointer;
+  border-width: 5px;
+  border: 1px solid white;
+  border: none;
+}
+.upload-image label {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.upload-image p{
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+}
+form .button-group{
+justify-content: right; 
+display: flex;
+margin-top: 3px;
+padding: 8px 20px;
+font-size: 15px;
+border-radius: 8px;
+border: none;
+cursor: pointer;
+gap: 1em;
+}
+.checkbox-groub label {
+display: flex;
+/* align-items: center; */
+font-size: 14px;
+justify-content: center;
+text-align: center;
+color: white;
+}
+.checkbox-groub {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+.checkbox-groub, label, input {
+  gap: 0.6rem;
+}
+
+.blog-image img {
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  width: 100px;
+}
+button:hover{
+  background:white!important;
+  color: black ;
+}

@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(/assets/images/bg\ nav.jpg);
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.navbar {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+font-size: 1.5rem;
+padding-top: 0 2rem;
+}
+.nav-left {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  gap: 1em;
+}
+.nav-left img {
+  object-fit: cover;
+  aspect-ratio: 1/1;
+  height: 60px;
+}
+.nav-left ul {
+  display: flex;
+  gap: 2em;
+}
+.nav-left ul li {
+  list-style: none;
+}
+.nav-left ul li a{
+  text-decoration: none;
+  color: whitesmoke ;
+  font-family: 'Segoe UI', sans-serif;
+}
+.nav-left ul li a:hover{
+  color: #000000;
+}
+.nav-right ul {
+  background-color: #3C3F47ff;
+  width: 120px;
+  height: 37px;
+  margin-right: 25px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow:   inset 15px -15px 35px #1d1d1e,
+  inset -15px 15px 35px #5d5d62;
+}
+.nav-right ul li { list-style: none;}
+.nav-right ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+}
+.nav-right ul li a:hover{
+  color:#000000;
+}
+
+form{
+  border-radius: 21px;
+background: transparent;
+/* box-shadow: inset -23px -23px 20px #9b928c,
+            inset 23px 23px 46px #ffffff; */
+            backdrop-filter: blur(10px);
+width: 600px;
+margin: 50px auto;
+aspect-ratio: 1/1;
+}
+.tittle {
+text-align: center;
+padding: 20px 0 20px 0;
+color: white;
+}
+input,select,textarea{
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 1.5px solid white;
+  margin-top: 5px;
+  color: white;
+}
+textarea{
+  resize: none;
+  height: 100px;
+}
+form div {
+  margin-top: 10px;
+}
+form label{
+  font-weight: bold;
+  color: white;
+}
+button {
+  font-size: 1rem;
+  background-color: transparent;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px 5px;
+  margin-top: 10px;
+  cursor: pointer;
+  position: relative;
+  left: 85%;
+  transition: .3s;
+  border: 1px solid white;
+}
+button:hover{
+  color: black;
+  background-color: white;
+}
+input::placeholder {
+  color: white;
+}
+textarea::placeholder{
+  color: white;
+}
+
+
+/* .container form{
+  display: flex;
+  flex-direction: column;
+}
+.container form input, textarea {
+  margin-bottom: 20px;
+  font-size: 15px;
+  border-radius: 10px;
+  outline: none;
+  background: transparent;
+  border: none;
+  padding: 20px 20px 20px;
+  border: 1px solid white;
+  color: white;
+}
+.container form textarea {
+  resize: none;
+  height: 100px;
+  padding-left: 10px;
+}
+.container form input, select {
+  height: 30px
+}
+form textarea::placeholder {
+  color: white;
+}
+form input::placeholder{
+  color: white;
+}
+.container label{
+  font-size: 20px;
+  color: aliceblue;
+}
+.container select{
+   color: white;
+   background: transparent;
+   font-size: 15px;
+   margin-bottom: 20px;
+   border-radius: 10px;
+   outline: none;
+   border: 1px solid white;
+   padding: 5px;
+   height: 40px;
+}
+.container button {
+  width: 90px;
+  height: 30px;
+  background-color: transparent;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  margin-left: 500px;
+}
+button:hover{
+  background-color: #5d5d62;
+  color: #000000;
+} */
+
+

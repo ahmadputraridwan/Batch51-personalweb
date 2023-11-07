@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> My Project </title>
+  <link rel="icon" href="/assets/images/logo.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+  integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="/assets/css/navbar.css">
+  <link rel="stylesheet" href="/assets/css/myproject.css">
+</head>
+<body>
+  <!-- nav -->
+  <nav class="navbar">
+    <div class="nav-left">
+      <a href="/profil-page.html">
+      <img src="/assets/images/logo1 p.png" alt="iconnav">
+    </a>
+    <ul>
+      <li>
+        <a href="/profil-page.html"> Home</a>
+      </li>
+      <li>
+        <a href="/add-project.html"> Create Blog</a>
+      </li>
+      <li>
+        <a href="/my-project.html"> My blog </a>
+      </li>
+    </div>
+    <div class="nav-right">
+      <ul>
+        <li><a href="/contact.html"> Contact </a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- blog-->
+  <!-- form -->
+      <div class="form-container">
+        <div class="blog">
+        <form action="">
+          <h1> Create Post Blog </h1>
+          <div>
+            <label for="input-tittle"> Tittle </label>
+            <input id="input-tittle">
+          </div>
+          <div class="start-date">
+            <label for="input-start-date"> Start Date </label>
+            <input id="input-start-date" type="date">
+          </div>
+          <div class="end-date">
+            <label for="input-end-date"> End Date </label>
+            <input id="input-end-date" type="date">
+          </div>
+          <div>
+            <label for="input-description"> Description </label>
+            <textarea  id="input-description" ></textarea>
+          </div>
+            <label for="Technologies"> Technologies</label>
+        <div class="checkbox-groub" >
+            <label for="nodejs"> Node js
+              <input type="checkbox" id="checkbox">
+            </label>
+
+            <label for="react"> JavaScript
+               <input type="checkbox" id="checkbox">
+            </label>
+
+            <label for="vue"> React js
+              <input type="checkbox" id="checkbox">
+            </label>
+
+            <label for="javaScript"> Postgree
+              <input type="checkbox" id="checkbox">
+            </label>
+          </div>
+
+          <div class="upload-image">
+            <p> Upload image </p>
+            <label for="file-upload">
+            <input id="file-upload" type="file" />
+            <i class="fa-solid fa-paperclip"></i>
+          </label>
+          </div>
+          <div class="button-group">
+            <div class="button-clear">
+              <button type="reset"> Clear </button>
+            </div>
+            <div class="button-submit">
+            <button type="submit" onclick="getData()">Post Blog</button>
+          </div>
+          </div>
+        </form>
+      </div>
+      </div>
+    <script src="/assets/js/blog.js"></script>
+</body>
+</html>
